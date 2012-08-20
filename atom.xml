@@ -1,99 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Lucio Carvalho</title>
-  <meta name="author" content="Lucio Carvalho">
-
-  
-  <meta name="description" content="Recentemente tive a necessidade de criar um ftp para um cliente, puts e toda vez que pedem para subir um serviço de FTP fico me perguntando nossa as &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://luciolnx.github.com/luciolnx">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/luciolnx/atom.xml" rel="alternate" title="Lucio Carvalho" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Lucio Carvalho</a></h1>
-  
-    <h2>A blog about stuff</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/luciolnx/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:luciolnx.github.com/luciolnx" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Lucio Carvalho]]></title>
+  <link href="http://luciolnx.github.com/luciolnx/atom.xml" rel="self"/>
+  <link href="http://luciolnx.github.com/luciolnx/"/>
+  <updated>2012-08-20T14:53:53-03:00</updated>
+  <id>http://luciolnx.github.com/luciolnx/</id>
+  <author>
+    <name><![CDATA[Lucio Carvalho]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2012/08/17/owncloud/">Owncloud</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2012-08-17T19:56:00-03:00" pubdate data-updated="true">Aug 17<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Recentemente tive a necessidade de criar um ftp para um cliente, puts e toda vez que pedem para subir um serviço de FTP fico me perguntando nossa as pessoas ainda tem a necessidade de usar um FTP ?
+  <entry>
+    <title type="html"><![CDATA[owncloud]]></title>
+    <link href="http://luciolnx.github.com/luciolnx/blog/2012/08/17/owncloud/"/>
+    <updated>2012-08-17T19:56:00-03:00</updated>
+    <id>http://luciolnx.github.com/luciolnx/blog/2012/08/17/owncloud</id>
+    <content type="html"><![CDATA[<p>Recentemente tive a necessidade de criar um ftp para um cliente, puts e toda vez que pedem para subir um serviço de FTP fico me perguntando nossa as pessoas ainda tem a necessidade de usar um FTP ?
 Então fui atras de uma solução melhor ou mais simples de usar para compartilhar arquivos e nessa procura encontrei o uma solução muito interessante chamada OwnCloud que simplesmente  falando é muito  parecido com o DropBox, ou seja, uma solução muito legal e com procedimentos meio que já conhecido.
 Além da função de compartilhar arquivos ele pode autenticar os usuários usando o LDAP/Active Directory ,possiu agenda, calendário, player de musica e diversas outras funções, seu funcionamento é bem simples em menos de 30 minutos você já consegue ter bastante noção como funciona o software.
 A seguir irei mostrar a instalação e configuração básica do OwCloud.</p>
@@ -168,7 +93,7 @@ A seguir irei mostrar a instalação e configuração básica do OwCloud.</p>
 <h5>J.<strong> Acessar a url:</strong></h5>
 
 <p>http://ip_do_servidor_cloud/owncloud e seguir os proximos passos de configuração
-<img src="/about/01.png" width="800" height="1600" title="Teste" ></p>
+<img src="http://luciolnx.github.com/luciolnx/about/01.png" width="800" height="1600" title="Teste" ></p>
 
 <blockquote><p>Na seguite imagem como o ip da maquina era o 172.28.126.65 acessei pelo mesmo</p></blockquote>
 
@@ -186,7 +111,7 @@ A seguir irei mostrar a instalação e configuração básica do OwCloud.</p>
 
 <p>Data Folder: /var/www/html/owncloud/data</p>
 
-<p><img src="/about/02.png" width="800" height="1600" title="Teste" ></p>
+<p><img src="http://luciolnx.github.com/luciolnx/about/02.png" width="800" height="1600" title="Teste" ></p>
 
 <h4>B. Configurando Banco de Dados</h4>
 
@@ -200,9 +125,9 @@ A seguir irei mostrar a instalação e configuração básica do OwCloud.</p>
 
 <p>Localidade: localhost</p>
 
-<p><img src="/about/03.png" width="800" height="1600" title="Teste" ></p>
+<p><img src="http://luciolnx.github.com/luciolnx/about/03.png" width="800" height="1600" title="Teste" ></p>
 
-<p><img src="/about/04.png" width="800" height="1600" title="Teste" ></p>
+<p><img src="http://luciolnx.github.com/luciolnx/about/04.png" width="800" height="1600" title="Teste" ></p>
 
 <h4>C. Finish Setup</h4>
 
@@ -213,26 +138,26 @@ A seguir irei mostrar a instalação e configuração básica do OwCloud.</p>
 <h4>A. Tela inicial</h4>
 
 <p>Essa é a tela que sempre vai aparecer depois do logon
-<img src="/about/05.png" width="800" height="1600" title="Teste" ></p>
+<img src="http://luciolnx.github.com/luciolnx/about/05.png" width="800" height="1600" title="Teste" ></p>
 
 <h4>B. Menu administração</h4>
 
 <p>No canto inferior esquerdo é aonde fica o menu de adminsitração, tanto dos usuários quanto do owncloud em si</p>
 
-<p><img src="/about/07.png" title="Teste" ></p>
+<p><img src="http://luciolnx.github.com/luciolnx/about/07.png" title="Teste" ></p>
 
 <h4>C. De uma olhada por ae</h4>
 
 <p>Segue algumas telas do sistema
 App Ativando e desabilitando funções do sistema</p>
 
-<p><img src="/about/06.png" width="800" height="1600" title="Teste" ></p>
+<p><img src="http://luciolnx.github.com/luciolnx/about/06.png" width="800" height="1600" title="Teste" ></p>
 
 <h4>D. Logout</h4>
 
 <p>Para sair, existe um botão no canto superior direito para fazer o logout do sistema</p>
 
-<p><img src="/about/08.png" width="150" height="900" title="Teste" ></p>
+<p><img src="http://luciolnx.github.com/luciolnx/about/08.png" width="150" height="900" title="Teste" ></p>
 
 <h2>OBS:</h2>
 
@@ -251,42 +176,15 @@ App Ativando e desabilitando funções do sistema</p>
 
 
 <p>Para ter mais noção sobre oque é o OwnCloud acesso o <a href="http://owncloud.org" title="OwnCloud">Site</a> e ler a <a href="http://owncloud.org/support/" title="Documentação">Documentação</a> oficial.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/08/17/the-first/">The First</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-17T12:15:00-03:00" pubdate data-updated="true">Aug 17<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Aprendi quando pequeno que a nossa primícia deve ser entregue à Ele, por tudo os que no deu, agradeço a Deus pela capacidade que me deu para pensar e refletir sobre as coisas.
+  <entry>
+    <title type="html"><![CDATA[The First]]></title>
+    <link href="http://luciolnx.github.com/luciolnx/blog/2012/08/17/the-first/"/>
+    <updated>2012-08-17T12:15:00-03:00</updated>
+    <id>http://luciolnx.github.com/luciolnx/blog/2012/08/17/the-first</id>
+    <content type="html"><![CDATA[<p>Aprendi quando pequeno que a nossa primícia deve ser entregue à Ele, por tudo os que no deu, agradeço a Deus pela capacidade que me deu para pensar e refletir sobre as coisas.
 Nesse primeiro post estou inaugurando o meu Blog/Site(oq vc quiser chamar) agradecendo também
 ao meu amigo Franco Carbonaro @francocabonaro pela ajuda com o octopress e github hehehe
 (foi uma luta conseguir um tempo desse mlk) e também minha família (Puts já está ficando meu
@@ -295,118 +193,7 @@ Mas é isso ae vou deixar registrado aqui um proposito sobre este projeto, quero
 (tutorial, dicas e etc) uma vez por mês então sem mais delongas vamos blogar</p>
 
 <p>Thanks !</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2012/08/17/owncloud/">owncloud</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/17/the-first/">The First</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/luciolnx">@luciolnx</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'luciolnx',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("luciocarvalhojr", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/luciocarvalhojr" class="twitter-follow-button" data-show-count="false">Follow @luciocarvalhojr</a>
-  
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Lucio Carvalho -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
