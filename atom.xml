@@ -4,7 +4,7 @@
   <title><![CDATA[Lucio Carvalho]]></title>
   <link href="http://luciolnx.github.com/luciolnx/atom.xml" rel="self"/>
   <link href="http://luciolnx.github.com/luciolnx/"/>
-  <updated>2012-08-21T11:32:59-03:00</updated>
+  <updated>2012-08-21T11:49:50-03:00</updated>
   <id>http://luciolnx.github.com/luciolnx/</id>
   <author>
     <name><![CDATA[Lucio Carvalho]]></name>
@@ -44,7 +44,7 @@ A seguir irei mostrar a instalação e configuração básica do OwCloud.</p>
 <h5>B. Download Owncloud:</h5>
 
 <p>Atualmente estou fazendo apatir da versão mais nova que é a 4.0.6
-<a href="Downloadhttp://owncloud.org/releases/owncloud-latest.tar.bz2" title="DOWNLOAD">DOWNLOAD</a></p>
+<a href="http://owncloud.org/releases/owncloud-latest.tar.bz2" title="DOWNLOAD">DOWNLOAD</a></p>
 
 <h5>C. Extrair para o diretorio do apache:</h5>
 
@@ -186,7 +186,7 @@ App Ativando e desabilitando funções do sistema</p>
     <id>http://luciolnx.github.com/luciolnx/blog/2012/08/17/the-first</id>
     <content type="html"><![CDATA[<p>Aprendi quando pequeno que a nossa primícia deve ser entregue à Ele, por tudo os que no deu, agradeço a Deus pela capacidade que me deu para pensar e refletir sobre as coisas.
 Nesse primeiro post estou inaugurando o meu Blog/Site(oq vc quiser chamar) agradecendo também
-ao meu amigo Franco Carbonaro @francocabonaro pela ajuda com o octopress e github hehehe
+ao meu amigo <a href="https://twitter.com/francocarbonaro" title="Franco Carbonaro">Franco Carbonaro</a>o pela ajuda com o octopress e github hehehe
 (foi uma luta conseguir um tempo desse mlk) e também minha família (Puts já está ficando meu
 brega esse post).
 Mas é isso ae vou deixar registrado aqui um proposito sobre este projeto, quero postar algo
